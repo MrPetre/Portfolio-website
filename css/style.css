@@ -1,0 +1,316 @@
+
+/* import fonts from fonts.css file */
+@import url(./fonts.css);
+
+/* css variables */
+@import url(./partials/_variables.css);
+
+/* import global styling */
+@import url(./partials/_global.css);
+
+/* Button code */
+.blue-button {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #65c9ff;
+    outline: none;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+}
+
+.blue-button:hover {
+    background: #434343;
+    letter-spacing: 1px;
+    text-decoration: none;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+}
+
+.about-area .blue-button, #projects .blue-button {
+    float: left;
+    margin-right: 20px;
+}
+
+/* Banner Area */
+.site-banner {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.site-main .site-banner .site-title h3{
+    padding-top: 35%;
+    font-weight: 500;
+}
+
+.site-main .site-banner .site-title h3::after{
+    content: " ";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1{
+    font-size: 5rem;
+}
+
+.site-main .site-banner .site-title h4{
+    font-size: 1.5rem;
+}
+
+.site-main .site-banner .banner-image > img{
+    padding: 7rem 0;
+    width: 90rem;
+}
+
+/* End Banner Area */
+
+/* Start About Area */
+
+.site-main .about-area{
+    padding: 8rem 5rem;
+}
+
+.site-main .about-area .about-title h2 > span{
+    display: block;
+    font: normal bold 49px/ 60px var(--roboto);
+    letter-spacing: 10px;
+}
+
+.site-main .about-area .about-title .paragraph > p{
+    padding: .4rem 0;
+}
+
+/* End About Area */
+
+/* Services Area */
+
+.card-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.services {
+    height: 70%;
+}
+
+.site-main .services-area .services-title h1{
+    font-size: 35px;
+}
+
+.site-main > .services-area .services{
+    background: rgba(248, 252, 253, 0.973);
+    padding: 2rem 0;
+    width: 16rem;
+    margin: 5rem .5rem;
+    transition: box-shadow .7s ease;
+}
+
+.site-main > .services-area .services:hover{
+    box-shadow: var(--box-shadow);
+}
+/* End Services Area */
+
+/* Project Area */
+
+#projects {
+    background-color: #fff;
+    color: #000;
+    margin-top: -10rem;
+    padding-top: 15rem;
+}
+@media (max-width: 75em) {
+    #projects {
+        margin-top: 0;
+        padding-top: 5rem;
+   }
+}
+#projects .project-wrapper {
+    margin-bottom: 15rem;
+}
+@media (max-width: 37.5em) {
+    #projects .project-wrapper {
+        margin-bottom: 0rem;
+   }
+}
+#projects .project-wrapper .row {
+    margin-bottom: 8rem;
+}
+@media (max-width: 37.5em) {
+    #projects .project-wrapper .row {
+        margin-bottom: 4rem;
+   }
+}
+#projects .project-wrapper__text {
+    text-align: left;
+}
+@media (max-width: 37.5em) {
+    #projects .project-wrapper__text {
+        margin-bottom: 2.5rem !important;
+   }
+}
+@media (max-width: 75em) {
+    #projects .project-wrapper__text {
+        margin-bottom: 4.8rem;
+   }
+}
+#projects .project-wrapper__text-title {
+    font-weight: bold;
+    margin-bottom: 1.8rem;
+    font-size: 2.5rem;
+}
+@media (max-width: 37.5em) {
+    #projects .project-wrapper__text-title {
+        font-size: 2rem;
+   }
+}
+#projects .project-wrapper__text p > a {
+    color: #00cdac;
+}
+#projects .project-wrapper__image {
+    width: 90%;
+    margin: 0 auto;
+}
+@media (max-width: 75em) {
+    #projects .project-wrapper__image {
+        width: 100%;
+        margin: 0;
+   }
+}
+#projects .project-wrapper__image .thumbnail {
+    border: none;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    transition: all 0.2s ease-out;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+    transition: 0.5s transform cubic-bezier(0.155, 1.105, 0.295, 1.12), 0.5s box-shadow, 0.5s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+}
+@media (max-width: 37.5em) {
+    #projects .project-wrapper__image .thumbnail {
+        border: 1px solid #d2d2d2;
+        box-shadow: none;
+        margin-bottom: 3.2rem;
+   }
+}
+
+
+/* End Project Area */ 
+
+
+/* About Me */
+.site-main .about-area .about-title p{
+    padding: 1rem 7rem;
+}
+
+.site-main .about-area .client{
+    background: #ffffff10;
+    box-shadow: var(--box-shadow);
+    margin: 3rem 0rem;
+}
+
+.site-main .about-area .client .client-img{
+    padding: 2rem;
+}
+
+.site-main .about-area .client .about-client{
+    padding-top: 2rem;
+}
+
+.site-main .about-area .client .about-client h4{
+    font: normal 500 21px/ 20px var(--roboto);
+}
+
+.site-main .about-area .client .about-client p{
+    font-size: 14px;
+}
+
+.site-main .about-area .owl-carousel .owl-item{
+    display: flex;
+    justify-content: center;
+    padding: 0 1.5rem;
+}
+
+.site-main .about-area .owl-carousel .owl-dots .owl-dot.active span{
+    background: var(--primary-color);
+    width: 12px;
+    height: 12px;
+}
+/* End About Me */
+
+/* Subscribe me */
+.site-main .subscribe-us-area .subscribe{
+    background: url(../img/subscribe-bg.png) no-repeat;
+    padding: 10rem 0;
+    margin: 3rem auto;
+}
+
+.site-main .subscribe-us-area .subscribe .subscribe-title h4{
+    font: normal 700 30px/ 30px var(--roboto);
+    color: whitesmoke;
+}
+
+.site-main .subscribe-us-area .subscribe .subscribe-title p{
+    color: whitesmoke;
+    padding: 1rem 4rem;
+}
+
+.site-main .subscribe-us-area .subscribe form .input-textbox input{
+    width: 400px;
+    padding: 1.5rem 1rem;
+    border: 1px solid whitesmoke;
+    background: transparent;
+    color: white;
+    font: normal 500 17px/20px var(--roboto);
+}
+
+.site-main .subscribe-us-area .subscribe form .input-textbox input::placeholder{
+    color: whitesmoke;
+}
+
+.site-main .subscribe-us-area .subscribe form .btn-submit button{
+    background: whitesmoke;
+    color: #000;
+    padding: .7rem 2rem;
+}
+
+/* End subscribe me */ 
+
+/* Footer Area */ 
+
+.follow-me {
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+footer.footer-area{
+    padding: 5rem 0;
+    background: url(../img/footer-bg.png) no-repeat;
+}
+
+footer.footer-area .social h5{
+    font: normal 500 23px/ 30px var(--roboto);
+}
+
+footer.footer-area .social a > i{
+    font-size:22px;
+    padding: 1.5rem;
+    color: var(--border-color);
+    transition: all 0.5s ease;
+}
+
+footer.footer-area .social a:hover > i{
+    color: var(--primary-color);
+    transform: translateY(-4px);
+}
+
+
+/* End Footer */ 
