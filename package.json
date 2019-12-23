@@ -2,7 +2,7 @@
   "name": "portfolio_website-master",
   "version": "1.0.0",
   "description": "My own personal portfolio website.",
-  "main": "index.js",
+  "main": "app.js",
   "dependencies": {
     "express": "^4.17.1"
   },
