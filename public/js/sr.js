@@ -18,6 +18,12 @@ ScrollReveal().reveal(".banner-image", {
   origin: "right"
 });
 
+ScrollReveal().reveal(".mobile-img-banner", {
+  ...defaultProps,
+  delay: 300,
+  origin: "right"
+});
+
 ScrollReveal().reveal(".about-image", {
   ...defaultProps,
   delay: 600,

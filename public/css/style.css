@@ -287,7 +287,7 @@
 /* Footer Area */ 
 
 .follow-me {
-    margin-top: 50px;
+    margin-top: 80px;
     font-weight: bold;
 }
 
@@ -303,7 +303,7 @@ footer.footer-area .social h5{
 footer.footer-area .social a > i{
     font-size:22px;
     padding: 1.5rem;
-    color: var(--border-color);
+    color: grey;
     transition: all 0.5s ease;
 }
 
