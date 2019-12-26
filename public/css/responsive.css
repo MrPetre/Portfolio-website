@@ -36,7 +36,7 @@
 
 @media only screen and (max-width: 991px){
     .site-banner {
-        padding-bottom: 30%;
+        padding-bottom: 20%;
     }
 
     .mobile-img-banner {
@@ -75,6 +75,12 @@
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 475px){
+    .site-banner {
+        padding-bottom: 35%;
     }
 }
 
