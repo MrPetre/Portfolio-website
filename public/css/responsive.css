@@ -28,6 +28,55 @@
 
 }
 
+@media only screen and (min-width: 991px){
+    .mobile-img-banner {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    .site-banner {
+        padding-bottom: 20%;
+    }
+
+    .mobile-img-banner {
+        height: 150px;
+        width: 150px;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        display: block;
+    }
+
+    .main-banner-img {
+        display: none;
+    }
+
+    .about-me-title {
+        text-align: center;
+    }
+
+    .paragraph {
+        text-align: center;
+        width: 100% !important;
+    }
+
+    .about-me-buttons {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-area {
+        padding-top: 8rem !important;
+        padding-bottom: 3rem !important;
+    }
+
+    .col-sm-12 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
 
 /* if the viewport is equal to 340px or less than that */ 
 @media only screen and (max-width: 792px){
@@ -81,6 +130,4 @@
     .site-main .about-area{
         padding: 3% 4%;
     }
-
-
 }

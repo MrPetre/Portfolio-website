@@ -184,7 +184,7 @@
 @media (max-width: 75em) {
     #projects .project-wrapper__image {
         width: 100%;
-        margin: 0;
+        margin-top: 20px;
    }
 }
 #projects .project-wrapper__image .thumbnail {
