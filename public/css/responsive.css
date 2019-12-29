@@ -28,6 +28,12 @@
 
 }
 
+@media only screen and (max-width: 1200px){
+    .services-list {
+        margin: 0;
+    }
+}
+
 @media only screen and (min-width: 991px){
     .mobile-img-banner {
         display: none;
@@ -75,6 +81,10 @@
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    .services-list {
+        margin: auto;
     }
 }
 
@@ -125,8 +135,6 @@
         margin: 5%;
     }
 }
-
-
 
 /* if the viewport is equal to 1910px or less than that */ 
 @media only screen and (max-width: 1910px){
