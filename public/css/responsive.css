@@ -69,7 +69,8 @@
 
     .about-me-buttons {
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
+        max-width: 100%;
     }
 
     .footer-area {

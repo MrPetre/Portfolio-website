@@ -34,7 +34,12 @@
 
 .about-area .blue-button, #projects .blue-button {
     float: left;
-    margin-right: 20px;
+}
+
+.about-me-buttons {
+    display: flex;
+    max-width: 400px;
+    justify-content: space-between;
 }
 
 /* Banner Area */
@@ -111,7 +116,7 @@
 .site-main > .services-area .services{
     background: rgba(248, 252, 253, 0.973);
     padding: 2rem 0;
-    width: 16rem;
+    width: 100%;
     margin: 5rem .5rem;
     transition: box-shadow .7s ease;
 }
