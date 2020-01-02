@@ -90,7 +90,7 @@
 /* if the viewport is equal to 475px or less than that */
 @media only screen and (max-width: 475px) {
     .site-banner {
-        padding-bottom: 35%;
+        padding-bottom: 45%;
     }
 }
 
