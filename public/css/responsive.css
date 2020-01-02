@@ -69,6 +69,8 @@
         display: flex;
         justify-content: space-around;
         max-width: 100%;
+        align-items: center;
+        padding: 0 25%;
     }
 
     .footer-area {
@@ -84,6 +86,24 @@
 
     .services-list {
         margin: auto;
+    }
+}
+
+@media only screen and (max-width: 745px) {
+    .about-me-buttons {
+        padding: 0 20%;
+    }
+}
+
+@media only screen and (max-width: 607px) {
+    .about-me-buttons {
+        padding: 0 15%;
+    }
+}
+
+@media only screen and (max-width: 515px) {
+    .about-me-buttons {
+        padding: 0;
     }
 }
 
