@@ -3,6 +3,10 @@
     font: normal bold 50px/ 72px var(--roboto);
 }
 
+.margin-delete {
+    margin: 15%;
+}
+
 .text-uppercase {
     text-transform: uppercase;
 }
