@@ -59,6 +59,12 @@ document.addEventListener("DOMContentLoaded", function(event) {
     origin: "bottom"
   });
 
+  ScrollReveal().reveal(".about-me-buttons", {
+    ...defaultProps,
+    delay: 400,
+    origin: "bottom"
+  });
+
   ScrollReveal().reveal(".para", {
     ...defaultProps,
     delay: 700,
