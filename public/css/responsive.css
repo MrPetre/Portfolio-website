@@ -118,6 +118,17 @@
     }
 }
 
+/* if the viewport is equal to 353px or less than that */
+@media only screen and (max-width: 353px) {
+    footer.footer-area .social a > i {
+        padding: 1.2rem;
+    }
+
+    .about-me-buttons .blue-button {
+        transform: scale(0.9);
+    }
+}
+
 /* if the viewport is equal to 375px or less than that */
 @media only screen and (max-width: 375px) {
     .mobile-img-banner {
